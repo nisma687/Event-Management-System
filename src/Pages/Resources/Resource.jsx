@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types';
 
 
 const Resource = ({resource}) => {
-    const{id,title,type,provider,
+    const{title,type,provider,
         topic,link,
         duration,level}=resource;
     return (
@@ -24,3 +25,6 @@ const Resource = ({resource}) => {
 };
 
 export default Resource;
+Resource.propTypes = {
+    resource:PropTypes.object
+}

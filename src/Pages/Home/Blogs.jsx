@@ -1,7 +1,7 @@
 
 
 const Blogs = (blog) => {
-    const{id,title,img,description}=blog;
+    
     console.log(blog.blog);
     return (
         <div className="card w-85 bg-base-100 shadow-xl">
