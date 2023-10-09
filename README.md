@@ -1,7 +1,8 @@
 
 # Education & Training Event Management
 
-live site at-
+live site at-https://education-training-react.web.app/
+
 
 
 ## Features

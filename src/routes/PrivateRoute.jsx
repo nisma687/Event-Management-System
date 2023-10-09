@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 const PrivateRoute = ({children}) => {
     const {user,loading}=useContext(AuthContext);
     const location=useLocation();
+    
     if(loading)
     {
         return <span className="loading loading-dots 
@@ -19,7 +20,7 @@ const PrivateRoute = ({children}) => {
     }
     return <NavLink
     state={location.pathname}
-     to="/logIn">Login</NavLink> 
+     to="/logIn"></NavLink> 
 
 };
 
