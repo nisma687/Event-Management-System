@@ -10,6 +10,7 @@ import Service from "../Pages/Service/Service";
 import Errorpage from "../Pages/Errorpage";
 import PrivateRoute from "./PrivateRoute";
 import Events from "../Pages/Events/Events";
+import Resources from "../Pages/Resources/Resources";
 
 const router = createBrowserRouter([
     {
@@ -43,6 +44,12 @@ const router = createBrowserRouter([
             <Events/>
           </PrivateRoute>,
 
+        },
+        {
+          path:'/resources',
+          element:<PrivateRoute>
+            <Resources/>
+          </PrivateRoute>,
         }
       
       ]

@@ -13,6 +13,7 @@ const Navbar = () => {
     <li><NavLink activeclassname="active" to="/logIn">Login</NavLink></li>
     <li><NavLink activeclassname="active" to="/register">Registration</NavLink></li>
     <li><NavLink activeclassname="active" to="/events">Events</NavLink></li>
+    <li><NavLink activeclassname="active" to="/resources">Resources</NavLink></li>
     </>
     const handleLogOut=()=>
     {

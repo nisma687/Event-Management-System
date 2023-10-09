@@ -1,0 +1,150 @@
+ [
+        {
+            "id": 1,
+            "title": "Introduction to Artificial Intelligence",
+            "type": "Online Course",
+            "provider": "Coursera",
+            "duration": "8 weeks",
+            "level": "Intermediate",
+            "topic": "Artificial Intelligence",
+            "link": "https://www.coursera.org/courses/ai-intro"
+        },
+        {
+            "id": 2,
+            "title": "Web Development Basics: HTML & CSS",
+            "type": "Tutorial",
+            "provider": "freeCodeCamp",
+            "duration": "2 hours",
+            "level": "Beginner",
+            "topic": "Web Development",
+            "link": "https://www.freecodecamp.org/learn/"
+        },
+        {
+            "id": 3,
+            "title": "Mastering Data Structures & Algorithms",
+            "type": "Book",
+            "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+            "publication_year": 2009,
+            "topic": "Computer Science",
+            "link": "https://mitpressbookstore.com/introduction-algorithms-third-edition"
+        },
+        {
+            "id": 4,
+            "title": "Digital Marketing Fundamentals",
+            "type": "Online Course",
+            "provider": "Udacity",
+            "duration": "6 weeks",
+            "level": "Intermediate",
+            "topic": "Digital Marketing",
+            "link": "https://www.udacity.com/course/digital-marketing-nanodegree--nd018"
+        },
+        {
+            "id": 5,
+            "title": "Photography Basics: Composition and Lighting",
+            "type": "Workshop",
+            "organizer": "National Photography Society",
+            "duration": "1 day",
+            "level": "Beginner",
+            "topic": "Photography",
+            "link": "https://nationalphotographysociety.org/workshops/composition-lighting"
+        },
+        {
+            "id": 6,
+            "title": "Introduction to Python Programming",
+            "type": "Online Course",
+            "provider": "edX",
+            "duration": "4 weeks",
+            "level": "Beginner",
+            "topic": "Programming",
+            "link": "https://www.edx.org/course/introduction-to-python-absolute-beginner-2"
+        },
+        {
+            "id": 7,
+            "title": "Financial Literacy: Managing Personal Finances",
+            "type": "Webinar",
+            "organizer": "Local Bank",
+            "duration": "2 hours",
+            "level": "Beginner",
+            "topic": "Financial Literacy",
+            "link": "https://www.localbank.com/financial-literacy-webinar"
+        },
+        {
+            "id": 8,
+            "title": "UX Design Principles: User-Centered Design",
+            "type": "Article",
+            "author": "Jane Doe",
+            "publication_year": 2020,
+            "topic": "User Experience",
+            "link": "https://uxdesignmag.com/user-centered-design-principles"
+        },
+        {
+            "id": 9,
+            "title": "Spanish Language Essentials",
+            "type": "Mobile App",
+            "developer": "Language Learning Co.",
+            "platform": "iOS, Android",
+            "level": "Beginner",
+            "topic": "Language Learning",
+            "link": "https://www.languagelearningco.com/spanish-language-app"
+        },
+        {
+            "id": 10,
+            "title": "Investment Strategies: Stocks and Bonds",
+            "type": "Podcast",
+            "host": "Financial Experts Podcast",
+            "duration": "45 minutes",
+            "level": "Intermediate",
+            "topic": "Investment",
+            "link": "https://www.financialexpertspodcast.com/investment-strategies-episode"
+        },
+        {
+            "id": 11,
+            "title": "Environmental Sustainability: Green Living Tips",
+            "type": "Blog",
+            "author": "EcoLiving Enthusiast",
+            "publication_year": 2021,
+            "topic": "Environmental Sustainability",
+            "link": "https://www.ecolivingtips.com/green-living-blog"
+        },
+        {
+            "id": 12,
+            "title": "Mobile App Development: Getting Started",
+            "type": "Tutorial Series",
+            "provider": "TechWorld Tutorials",
+            "duration": "5 videos",
+            "level": "Intermediate",
+            "topic": "Mobile App Development",
+            "link": "https://www.techworldtutorials.com/mobile-app-development-series"
+        },
+        {
+            "id": 13,
+            "title": "Art History: Masterpieces Through the Ages",
+            "type": "Online Course",
+            "provider": "Khan Academy",
+            "duration": "10 weeks",
+            "level": "Intermediate",
+            "topic": "Art History",
+            "link": "https://www.khanacademy.org/art-history-masterpieces-course"
+        },
+        {
+            "id": 14,
+            "title": "Public Speaking Techniques: Confident Communication",
+            "type": "Workshop",
+            "organizer": "Speech Mastery Institute",
+            "duration": "1.5 days",
+            "level": "Intermediate",
+            "topic": "Public Speaking",
+            "link": "https://www.speechmasteryinstitute.com/public-speaking-workshop"
+        },
+        {
+            "id": 15,
+            "title": "Creative Writing: Short Story Workshop",
+            "type": "Workshop",
+            "organizer": "Creative Writers Guild",
+            "duration": "2 days",
+            "level": "Intermediate",
+            "topic": "Creative Writing",
+            "link": "https://www.creativewritersguild.com/short-story-workshop"
+        }
+    ]
+
