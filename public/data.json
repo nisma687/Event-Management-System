@@ -1,0 +1,47 @@
+
+     [
+      {
+        "id": 1,
+        "title": "Event Planning and Coordination",
+        "shortDescription": "Comprehensive event planning and coordination services for seamless execution.",
+        "image": "https://i.ibb.co/r5bM7vQ/Event-Planning.jpg",
+        "price": "$1500"
+      },
+      {
+        "id": 2,
+        "title": "Customized Curriculum Development",
+        "shortDescription": "Tailored educational content and training materials to meet specific participant needs.",
+        "image": "https://i.ibb.co/Gd11Hsw/customised-Curriculam-Event.jpg",
+        "price": "$1200"
+      },
+      {
+        "id": 3,
+        "title": "Online Training and Webinars",
+        "shortDescription": "Interactive virtual events with live streaming, Q&A sessions, and polls.",
+        "image": "https://i.ibb.co/JdTD0Z5/Online-Trainning-Webinars.jpg",
+        "price": "$800"
+      },
+      {
+        "id": 4,
+        "title": "Speaker and Instructor Management",
+        "shortDescription": "Management of experienced speakers and instructors for engaging events.",
+        "image": "https://i.ibb.co/LS4MV1K/Speaker-Intruction-Management.jpg",
+        "price": "$1600"
+      },
+      {
+        "id": 5,
+        "title": "Networking and Collaboration Opportunities",
+        "shortDescription": "Facilitation of meaningful interactions and collaboration among participants.",
+        "image": "https://i.ibb.co/F0DPQdt/Networking-Collaboration.jpg",
+        "price": "$1000"
+      },
+      {
+        "id": 6,
+        "title": "Post-Event Evaluation and Feedback Analysis",
+        "shortDescription": "Comprehensive analysis of event feedback to enhance future programs.",
+        "image": "https://i.ibb.co/ZHp2rp7/Event-Feed-Back.jpg",
+        "price": "$500"
+      }
+    ]
+  
+  
