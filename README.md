@@ -1,8 +1,14 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Education & Training Event Management
 
-Currently, two official plugins are available:
+live site at-
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Features
+
+- My project has home,login,registration,event routes in the navbar
+-where the home login and registration page is available for everyone 
+-the other route event which is a private route a user must login or create a account to access those
+-as it has a login an registration page and it was validated also it can easily create a user also make one user to login also to logout
+-also if someone has to see the services of this system they need to login first.
+
