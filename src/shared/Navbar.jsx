@@ -12,7 +12,7 @@ const Navbar = () => {
      activeclassname="active" to="/">Home</NavLink></li>
     <li><NavLink activeclassname="active" to="/logIn">Login</NavLink></li>
     <li><NavLink activeclassname="active" to="/register">Registration</NavLink></li>
-    <li><NavLink activeclassname="active" to="/services">Services</NavLink></li>
+    <li><NavLink activeclassname="active" to="/events">Events</NavLink></li>
     </>
     const handleLogOut=()=>
     {

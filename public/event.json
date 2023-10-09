@@ -1,0 +1,31 @@
+[
+        {
+            "id": 1,
+            "title": "Future of Technology Symposium",
+            "description": "Join us for an insightful exploration of the future of technology. This symposium will feature engaging discussions, hands-on workshops, and presentations by industry experts. Discover the latest trends, innovations, and opportunities in the tech world.",
+            "image":"https://i.ibb.co/ZGPq0Cg/istockphoto-530685797-1024x1024.jpg",
+            "speaker": "Dr. Sarah Johnson"
+        },
+        {
+            "id": 2,
+            "title": "Entrepreneurship Masterclass",
+            "description": "Unleash your entrepreneurial spirit with our intensive masterclass. Learn from successful entrepreneurs, gain practical skills in business development, and network with like-minded individuals. This masterclass is your gateway to entrepreneurial success.",
+            "image":"https://i.ibb.co/BjFtdCf/event-852833-1280.jpg",
+            "speaker": "John Smith"
+        },
+        {
+            "id": 3,
+            "title": "Digital Marketing Workshop",
+            "description": "Dive into the world of digital marketing in this hands-on workshop. From social media strategies to SEO techniques, our experts will guide you through the essential tools and tactics for successful online marketing campaigns.",
+            "image":"https://i.ibb.co/RHXYnLY/people-5579977-1280.png",
+            "speaker": "Emily Davis"
+        },
+        {
+            "id": 4,
+            "title": "Creative Writing Seminar",
+            "description": "Uncover the secrets of compelling storytelling in our creative writing seminar. Acclaimed author, David Martinez, will share valuable insights into character development, plot structures, and the art of creating immersive narratives.",
+            "image":"https://i.ibb.co/8rkFzmB/teacher-1015630-1280.jpg",
+            "speaker": "David Martinez"
+        }
+]
+
