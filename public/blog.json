@@ -1,0 +1,21 @@
+ [
+        {
+            "id": 1,
+            "title": "The Future of Online Learning",
+            "img": "https://i.ibb.co/ZMvKdR2/man-791049-1280.jpg",
+            "description": "As technology continues to reshape the way we learn, online education has emerged as a powerful force. This blog post explores the trends, challenges, and innovations shaping the future of online learning. From interactive platforms to AI-driven education, discover the transformative potential of digital education."
+        },
+        {
+            "id": 2,
+            "title": "Empowering Students: A Guide to Effective Study Habits",
+            "img": "https://i.ibb.co/Fw2fNHD/diary-968592-1280.jpg",
+            "description": "Successful learning starts with effective study habits. In this blog post, we delve into proven strategies to help students enhance their learning experience. From time management techniques to active learning methods, empower yourself or your students with the skills and mindset needed for academic excellence."
+        },
+        {
+            "id": 3,
+            "title": "Navigating Career Transitions: Tips for Professional Growth",
+            "img": "https://i.ibb.co/g72p9Kr/programmer-1653351-1280.png",
+            "description": "Career transitions can be both exciting and challenging. Whether you're changing fields, seeking a promotion, or starting a new venture, this blog post provides valuable insights and practical tips. Learn how to leverage your skills, network effectively, and embrace change to navigate successful career transitions."
+        }
+    ]
+
