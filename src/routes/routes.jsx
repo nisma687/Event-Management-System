@@ -6,6 +6,8 @@ import {
   } from "react-router-dom";
 import Login from "../Pages/Login/Login";
 import Registration from "../Pages/Registration/Registration";
+import Service from "../Pages/Service/Service";
+import Errorpage from "../Pages/Errorpage";
 
 const router = createBrowserRouter([
     {
@@ -14,7 +16,9 @@ const router = createBrowserRouter([
       children:[
         {
             path:"/",
-            element:<Home/>
+            element:<Home/>,
+            loader:()=>fetch('/data.json')
+            
         },
         {
             path:'/logIn',
@@ -23,9 +27,20 @@ const router = createBrowserRouter([
         {
             path:'/register',
             element:<Registration/>
-        }
+        },
+        {
+          path:'/services/:id',
+          element:<Service/>,
+          loader:()=>fetch('/data.json')
+        },
+      
       ]
+
     },
+    {
+        path:"*",
+        element:<Errorpage/>
+    }
   ]);
 
 export default router;
