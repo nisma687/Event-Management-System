@@ -1,23 +1,39 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import { AuthContext } from "../../providers/AuthProvider";
 
 
 const Login = () => {
 const {login}=useContext(AuthContext);
+const location=useLocation();
+const navigate=useNavigate();
+const [error,setError]=useState('');
+const [success,setSuccess]=useState('');
     const handleLogIn=(e)=>{
         e.preventDefault();
         const form=new FormData(e.currentTarget);
         const email=form.get("email");
         const password=form.get("password");
+        setError('');
+        setSuccess('');
         // console.log(email,password);
+        if(!email || !password)
+        {
+          setError("Please enter email and password");
+          return;
+        }
         login(email,password)
         .then(res=>{
+          setSuccess("Login Successfull");
           console.log(res.user);
+          navigate(location?.state? 
+            location.state : "/")
         })
         .catch(error=>{
+        
+          setError(error.message);
           console.log(error.message);
         })
 
@@ -42,8 +58,10 @@ const {login}=useContext(AuthContext);
                 </label>
                 <input type="email" 
                 name="email"
-                placeholder="email" className="input input-bordered"
+                placeholder="email"
                 required
+                 className="input input-bordered"
+               
                  />
               </div>
               <div className="form-control">
@@ -64,8 +82,14 @@ const {login}=useContext(AuthContext);
               </div>
 
               <p className="mt-3">Do not have an account?please go to the <Link className="text-blue-800 font-bold" to="/register">Registration </Link> Page </p>
+              {
+                error && <p className="text-red-500">{error}</p>
+              }
+              {
+                success && <p className="text-green-500">{success}</p>
+              }
             </form>
-           
+          
           </div>
         </div>
       </div>

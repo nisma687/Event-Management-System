@@ -5,12 +5,13 @@ import { AuthContext } from "../providers/AuthProvider";
 const Navbar = () => {
 
   const {user,logOut}=useContext(AuthContext);
+  console.log(user);
     const navLinks=<>
     <li><NavLink
-    exact
-     activeClassName="active" to="/">Home</NavLink></li>
-    <li><NavLink activeClassName="active" to="/logIn">Login</NavLink></li>
-    <li><NavLink activeClassName="active" to="/register">Registration</NavLink></li>
+    exact="true"
+     activeclassname="active" to="/">Home</NavLink></li>
+    <li><NavLink activeclassname="active" to="/logIn">Login</NavLink></li>
+    <li><NavLink activeclassname="active" to="/register">Registration</NavLink></li>
     </>
     const handleLogOut=()=>
     {
@@ -45,9 +46,17 @@ const Navbar = () => {
   </div>
   <div className="navbar-end">
     {
-      user? <Link to="/"
+      user && <div className="flex">
+        <img src={user.photoURL} alt="" className="w-10 h-10 rounded-full mr-2"/>
+        <span className="text-xl mr-2 font-semibold">{user.displayName}</span>
+      </div>
+    }
+    {
+      user? <button to="/"
       onClick={handleLogOut}
-       className="btn btn-outline btn-primary">LogOut</Link>:
+       className="btn btn-outline btn-primary">
+
+       LogOut</button>:
       <Link to="/logIn" className="btn btn-outline btn-primary">LogIn</Link>
     }
     
